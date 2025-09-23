@@ -1,0 +1,10 @@
+streamlit
+pandas>=2.2
+pyarrow
+pytz
+python-dateutil
+matplotlib
+altair
+pytest
+watchdog
+requests
