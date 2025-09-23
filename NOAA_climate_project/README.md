@@ -15,3 +15,5 @@ Steps:
     - `--restart`: deletes and recreates `./.venv` (fresh env)
 3) Get an API token from NOAA and pass it to the shell
     - run `export NOAA_TOKEN='your_token_here' ` in your shell after activating
+4) Run the Code
+    - Running `./run.sh` in the command line will run app.py 
