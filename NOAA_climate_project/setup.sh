@@ -5,6 +5,7 @@
 cd -- "$(dirname -- "${BASH_SOURCE[0]}")" || exit 1
 # Source context.sh to get conda_exe, conda_venv, python_exe, etc.
 source ./context.sh
+conda_exe install -y -p "$(conda_venv)" -c conda-forge r-base r-irkernel 
 
 
 # -------------------- Args --------------------
